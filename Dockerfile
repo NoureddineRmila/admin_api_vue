@@ -1,4 +1,4 @@
-# build stage
+# build stage update
 FROM node:lts-alpine as build-stage
 WORKDIR /app
 COPY package*.json ./
